@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0b1120;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+nav {
+    background-color: #161f35;
+    padding: 20px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+nav h1 {
+    color: #38bdf8;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 18px;
+}
+ul{
+    display: inline;
+    cursor: pointer;
+}
+li{
+    display: inline;
+}
+
+li:hover {
+    color: #38bdf8;
+}
+
+h1, h2, h3 {
+    margin-bottom: 15px;
+}
+
+p {
+    color: #cbd5e1;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #38bdf8;
+    color: #0b1120;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 15px 0 30px;
+}
+
+button:hover {
+    background-color: #7dd3fc;
+}
+
+.destination-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.destination-card {
+    background-color: #161f35;
+    padding: 15px;
+    border-radius: 12px;
+    width: 280px;
+    border: 1px solid #293750;
+    align-items: center;
+}
+
+.destination-card img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.destination-card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+    border-color: #38bdf8;
+}
+.destination-card img:hover{
+    transition: 1.03s;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+.about{
+    background-color: #161f35;
+    color: azure;
+}
+.about h1{
+    text-align: center;
+}
+.contact{
+    background-color: #293750;
+    color:aliceblue;
+    text-align: center;
+    padding: 40px;
+}
+.home{
+    background-image:url("images/maldives.jpeg");
+    background-position: center;
+    background-size:cover;
+    color: purple;
+    padding: 50px;
+}
+.home h1{
+    font-size: 40px;
+}
+.home h2{
+    font-size: 28px;
+}
+.home button{
+    background-color: #00c9d8;
+    color: black;
+    cursor: pointer;
+    border:none;
+}
+.home button:hover {
+    background-color: lightblue;
+}
